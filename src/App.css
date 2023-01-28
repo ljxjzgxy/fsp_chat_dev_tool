@@ -1,0 +1,110 @@
+
+
+h2 {
+    color: #313131;
+}
+
+h6 {
+    color: greenyellow;
+}
+
+hr.line {
+    border: 1px solid #313131;
+    width: 175px;
+    margin: 0rem auto 1rem;
+}
+
+.app {
+    margin: auto;
+    padding-top: 40px;
+    width: 950px;
+    text-align: center;
+}
+
+.lobby {
+    width: 400px;
+    margin: auto;
+}
+
+.chat {
+    display: grid;
+}
+
+.leave-room {
+    text-align: right;
+    margin-bottom: 4px;
+}
+
+.user-list {
+    float: left;
+    background-color: #313131;
+    color: white;
+    width: 200px;
+    height: 440px;
+    margin-right: 4px;
+}
+
+.message-container {
+    height: 400px;
+    background-color: white;
+    overflow: auto;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    width: 50%;
+    font-size: 1.5rem;
+    border: 1px dotted lightgrey;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.user-message {
+    text-align: right;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.messageUserLine {
+    background-color: gainsboro;
+    color: darkgoldenrod;
+    padding: 2px 10px;
+    border-radius: 5px;
+    max-width: 20rem;
+    min-width: 10rem;
+    text-align: right;
+}
+
+.rightMsg {
+    display: flex;
+    justify-content: right;
+}
+
+.messageUserLine2 {
+    background-color: deepskyblue;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 5px;
+    max-width: 15rem;
+    min-width: 10rem;
+}
+
+.message {
+    display: inline-flex;
+    margin: 0px auto 0px auto;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 3px;
+    width: 50%;
+}
+
+.SendBtn {
+    min-width: 10rem;
+    height: 3rem;
+    width: 50%;
+}
+
+.from-user {
+    font-size: small;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}

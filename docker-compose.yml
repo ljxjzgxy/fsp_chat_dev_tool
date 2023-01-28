@@ -1,0 +1,9 @@
+services:
+  chat_fe:
+    image: chat_fe:v1.1
+    container_name: chat_dev_tool_fe
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5696:80
